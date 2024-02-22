@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import {Icons, Google, Bnav, Icon} from './Components.js'
+import Dotsimg from './img/Dots.png'
+function App(){
+  return(
+  <div> 
+    {/* <Icons Text="A"/>
+    <Icons img={Dotsimg}/>
+    <Icons Text="images"/>
+    <Icons Text ="gmail"/> */}
+    <Icon/>
+    <Google/>
+    <Bnav/>
+    </div>)
 }
 
-export default App;
+export default App
